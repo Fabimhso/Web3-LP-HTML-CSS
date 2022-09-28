@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppinsregular;
+}
+
+section {
+    position: relative;
+    width: 100%;
+    min-height: 100vw;
+    padding: 100px;
+    background: #121212;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.circle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #741ee5;
+    clip-path: circle(70% at bottom right);
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo {
+    position: relative;
+    max-width: 200px;
+}
+
+header .navegation ul {
+    position: relative;
+    display: flex;
+}
+
+header .navegation li {
+    list-style: none;
+}
+
+header .navegation li a {
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 19px;
+    margin-left: 100px;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container .text {
+    position: relative;
+    max-width: 600px;
+    margin-right: 20px;
+}
+
+.container .text h2 {
+    color: white;
+    font-size: 3em;
+    margin-bottom: 10px;
+    line-height: 2.5em;
+    font-weight: 700;
+}
+
+.container .text h2 span{
+    font-size: 2.7em;
+    color: #741ee5;
+}
+
+.container .text p {
+    color: white;
+}
+
+.container .text a {
+    display: inline-block;
+    margin-top: 50px;
+    padding: 10px 25px;
+    background: #741ee5;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 1px;
+    border-radius: 40px;
+    transition: 0.3s ease-in-out;
+}
+
+.container .text a:hover {
+    transform: translateY(-10px);
+
+}
+
+.icons {
+    position: absolute;
+    bottom: 40px;
+    left: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons li {
+    list-style: none;
+}
+
+.icons li a {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #222;
+    margin-left: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease-in-out;
+}
+
+.icons li a:hover{
+    background: #741ee5;
+    transform: translateY(-10px);
+}
+
+.icons li a img {
+    transform: scale(0.5);
+    filter: invert(1);
+}
+
+.boximg {
+    position: absolute;
+    right: 0;
+    bottom: -40px;
+}
+
+.boximg img {
+    width: 600px;
+    margin-left: 40%;
+    display: inline-block;
+}
+
+.boximg .img1 {
+    width: 400px;
+}
